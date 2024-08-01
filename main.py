@@ -3,6 +3,7 @@ import json
 from geopy.geocoders import Nominatim
 from geopy.distance import geodesic
 import os
+from dotenv import load_dotenv
 import sys 
 import boto3
 from langchain_chroma import Chroma
@@ -40,9 +41,15 @@ from geopy.geocoders import Nominatim
 
 app = FastAPI()
 
-aws_access_key_id = 'ASIAU6GDXWDTZF6WJSML'
-aws_secret_access_key = '3idI2/ZSk1L+b1w0Oxqv2FwD6vuBuUP75G9hlzq4'
-aws_session_token = 'IQoJb3JpZ2luX2VjEIb//////////wEaCmFwLXNvdXRoLTEiRjBEAiAL6ByAoHtia+azh9blkQq72jjGEUXDn60Bn/yyTq4zxQIgJaOTfnWnZRXgS/ReHvS0UDwCed3mvS1yShuuhlXwyPQqiAMIbxAAGgwzMzk3MTI5MTM2MzkiDICGrbayChnQrFkVZyrlAmQBxlz5qfm7x3agpSm//M8QLZK0OD6PXGlOwkElvHaAacKQMLsXSd9VCeXhwsXLEBa8kbVbMmKBozu/rn3L1vyvV+DGFIa8BviuSKo+Bg23iJmvtX+2Dc44QF8T2yC0TTStF+yf+HvYTPHs4IWi1hK8luSAXF+TT9CDAbtJtfqKYSAV9JDXJg63punkLrxu5ycOMQ+SlJi9aaotNU69jOqKiizd2Mpbqr60+dcB6gPJRGQCrLe/tXJU/WbBrpO3/OTGPAM7wiDlthXJH5iuakQuW7oQJyMtxzVXL5SK3Qp5FIwmhk+idEzedbCeyxA5Pb0oBJgjhpt23x4GXv5/B01zF3tnTpZkXj4EG/sXywLV1CIUBmkHDNPsrwPT5dwiY//rLHjJHY78WAGDyYTWe6xARekWQUJQHVhAEHJ8llS/EOAKNvWZSGxenNVNoy1dTHhSL24KRjqh81Jfbde3YgU7N7orsDDXvqy1BjqnAfmcT9m3O1DUzBtMKEku2+MtopCCRfoce+i3nDvv1SmkzPZxoqUCvdiwD3edRhdp3QmjB5DWOfm9kTmslQE2DUBaaK8eqm+AmMbJyfWA+mccC6y4XlZhHuUvpuT9DY7+sAXUwJ9Auedi3znrN3YixiIGRgTLZjX3JxqrNu0QOKaU6XVL7TmCeqoZK9dx5Sp5stvGfT7FZnXF/+3QlFdP6jasTDMKqYy1'
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Access the environment variables
+aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')
+aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')
+aws_session_token = os.getenv('AWS_SESSION_TOKEN')
+
 try:
     # bedrock = boto3.client(service_name="bedrock-runtime")
     bedrock = boto3.client(
