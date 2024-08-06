@@ -1,0 +1,139 @@
+{
+    "Data": [
+        {
+            "measureName": "Vehicle.Powertrain.CombustionEngine.Speed",
+            "time": "2024-02-13 08:08:18.017000000",
+            "measureValue": "0"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Latitude",
+            "time": "2024-02-13 08:08:18.000000000",
+            "measureValue": "12.993734369830559"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Longitude",
+            "time": "2024-02-13 08:08:18.000000000",
+            "measureValue": "77.70530673649098"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Altitude",
+            "time": "2024-02-13 08:08:18.000000000",
+            "measureValue": "544.25341796875"
+        },
+        {
+            "measureName": "Vehicle.Connectivity.IsConnectivityAvailable",
+            "time": "2024-02-13 08:08:16.505000000",
+            "measureValue": "1"
+        },
+        {
+            "measureName": "Vehicle.Powertrain.CombustionEngine.Speed",
+            "time": "2024-02-13 08:08:16.024000000",
+            "measureValue": "0"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Latitude",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "18.65507104"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Longitude",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "73.81339973"
+        },
+        {
+            "measureName": "Vehicle.DTC.Code",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "B2840"
+        },
+        {
+            "measureName": "Vehicle.DTC.Code",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "B2840"
+        },
+        {
+            "measureName": "Vehicle.Chassis.Axle.Row1.Wheel.Right.Tire.Pressure",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "32"
+        },
+        {
+            "measureName": "Vehicle.Chassis.Axle.Row1.Wheel.Left.Tire.Pressure",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "31"
+        },
+        {
+            "measureName": "Vehicle.Chassis.Axle.Row2.Wheel.Right.Tire.Pressure",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "33"
+        },
+        {
+            "measureName": "Vehicle.Chassis.Axle.Row2.Wheel.Left.Tire.Pressure",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "32"
+        },
+        {
+            "measureName": "Vehicle.Powertrain.FuelSystem.RelativeLevel",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "35"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Altitude",
+            "time": "2024-02-13 08:08:16.000000000",
+            "measureValue": "544.3602294921875"
+        },
+        {
+            "measureName": "Vehicle.Connectivity.IsConnectivityAvailable",
+            "time": "2024-02-13 08:08:15.833000000",
+            "measureValue": "1"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Longitude",
+            "time": "2024-02-13 08:08:14.000000000",
+            "measureValue": "73.81339959"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Altitude",
+            "time": "2024-02-13 08:08:14.000000000",
+            "measureValue": "544.41845703125"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Latitude",
+            "time": "2024-02-13 08:08:14.000000000",
+            "measureValue": "18.65507107"
+        },
+        {
+            "measureName": "Vehicle.Powertrain.CombustionEngine.Speed",
+            "time": "2024-02-13 08:08:13.905000000",
+            "measureValue": "0"
+        },
+        {
+            "measureName": "Vehicle.Chassis.ParkingBrake.IsEngaged",
+            "time": "2024-02-13 08:08:12.988000000",
+            "measureValue": "1"
+        },
+        {
+            "measureName": "Vehicle.Connectivity.IsConnectivityAvailable",
+            "time": "2024-02-13 08:08:12.794000000",
+            "measureValue": "1"
+        },
+        {
+            "measureName": "Vehicle.Powertrain.CombustionEngine.Speed",
+            "time": "2024-02-13 08:08:11.995000000",
+            "measureValue": "0"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Altitude",
+            "time": "2024-02-13 08:08:11.900000000",
+            "measureValue": "544.524169921875"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Longitude",
+            "time": "2024-02-13 08:08:11.900000000",
+            "measureValue": "73.81339964"
+        },
+        {
+            "measureName": "Vehicle.CurrentLocation.Latitude",
+            "time": "2024-02-13 08:08:11.900000000",
+            "measureValue": "18.65507146"
+        }
+    ]
+}
