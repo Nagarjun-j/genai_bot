@@ -1,0 +1,40 @@
+{
+    "Data": [
+        {
+            "measureName": "Vehicle.Service.IsServiceDueAlert",
+            "campaignName": "TML_ALERTS_TS",
+            "time": "2024-08-07 11:42:05.217000000",
+            "measureValue": "1"
+        },
+        {
+            "measureName": "Vehicle.Cabin.Door.Row1.DriverSide.IsLockedAlert",
+            "campaignName": "TML_ALERTS_TS",
+            "time": "2024-08-07 11:42:07.464000000",
+            "measureValue": "0"
+        },
+        {
+            "measureName": "Vehicle.Service.IsServiceDueAlert",
+            "campaignName": "TML_ALERTS_TS",
+            "time": "2024-08-07 11:42:07.489000000",
+            "measureValue": "1"
+        },
+        {
+            "measureName": "Vehicle.Service.IsServiceDueAlert",
+            "campaignName": "TML_ALERTS_TS",
+            "time": "2024-08-07 11:42:12.683000000",
+            "measureValue": "1"
+        },
+        {
+            "measureName": "Vehicle.Cabin.Door.Row1.DriverSide.IsLockedAlert",
+            "campaignName": "TML_ALERTS_TS",
+            "time": "2024-08-07 11:42:14.911000000",
+            "measureValue": "0"
+        },
+        {
+            "measureName": "Vehicle.Service.IsServiceDueAlert",
+            "campaignName": "TML_ALERTS_TS",
+            "time": "2024-08-07 11:42:14.977000000",
+            "measureValue": "1"
+        }
+    ]
+}
